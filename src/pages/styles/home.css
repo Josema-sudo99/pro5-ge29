@@ -1,0 +1,143 @@
+.home__container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.home{
+    height: 100vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-color: rgb(187, 247, 227);  */
+}
+
+.home__items{
+    margin-bottom: 7em;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     /* background-color: blue;  */
+}
+
+.home__title{
+    /* width: 676px; */
+    width: 100%;
+    height: 121px;
+    background-image: url('../../img/pokedex.svg');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home__hi{
+
+font-style: normal;
+font-weight: 700;
+font-size: 2.5rem;
+line-height: 61px;
+text-align: center;
+color: #FE1936;
+padding: 1em 0 0 0;
+
+}
+
+.home__please {
+text-align: center;
+}
+
+.home_footer{
+    /* background-color: blueviolet; */
+    /* max-height: 200px; */
+    height: 160px;
+    width: 100%;
+    background-image: url('../../img/homeFooter.svg');
+    background-position:bottom;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media  (min-width: 1440px){
+    .home_footer{
+        height: 160px;
+        width: 100%;
+        background-size: cover; 
+    }
+}
+
+@media  (max-width: 1200px){
+    .home__items{
+        
+        width: 550px;
+        /* background-color: blue;  */
+    }
+    .home_footer{
+        height: 150px;
+        width: 100%;
+        background-size:cover; 
+    }
+}
+
+ @media (max-width: 800px){
+    /* .home{
+        height: 150vh;
+        width: 100%;
+    } */
+    .home__items{
+        
+        width: 380px;
+        /* background-color: greenyellow;  */
+    }
+    .home_footer{
+        height: 140px;
+        width: 100%;
+        /* max-width: 800px; */
+        background-size: cover;
+    } 
+} 
+
+@media (max-width: 500px){
+     .home{
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+    } 
+    .home_footer{
+        height: 120px;
+        width: 100%;
+       
+        background-size: cover;
+    } 
+}
+@media (max-width: 400px){
+    .home{
+       height: 100vh;
+       width: 100%;
+       /* background-color: red; */
+   } 
+   .home_footer{
+       height: 110px;
+       width: 100%;
+      
+       background-size: cover;
+   }     
+
+   .home__title{
+    
+    width: 100%;
+    
+}
+    
+
+} 
